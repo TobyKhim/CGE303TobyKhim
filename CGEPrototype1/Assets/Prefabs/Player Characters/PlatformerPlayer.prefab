@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 1264665514549425112}
   - component: {fileID: 1264665514549425113}
   - component: {fileID: 1264665514549425114}
+  - component: {fileID: 1629059701339314057}
   m_Layer: 0
   m_Name: PlatformerPlayer
   m_TagString: Player
@@ -172,3 +173,16 @@ MonoBehaviour:
     m_Bits: 64
   groundCheck: {fileID: 1264665514377182497}
   groundCheckRadius: 0.2
+--- !u!114 &1629059701339314057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264665514549425115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cfe7a1b5e4f448ca0f2b150bd0ba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowestY: -8
