@@ -16,7 +16,7 @@ public class PlatformerPlayerController : MonoBehaviour
     public float groundCheckRadius = 0.2f;
 
     //boot to keeo track of if we are on the ground
-    private bool isGrounded;
+    public bool isGrounded;
 
 
     //Reference to the Rigidbody2D component
@@ -29,6 +29,8 @@ public class PlatformerPlayerController : MonoBehaviour
 
     private AudioSource playerAudio;
 
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,9 @@ public class PlatformerPlayerController : MonoBehaviour
         
         //Set reference variables to components
         playerAudio = GetComponent<AudioSource>();
+
+        // Set the reference for the Animator
+        animator = GetComponent<Animator>();
 
         //ensure the groundCheck variable is assigned
         if (groundCheck == null)
@@ -66,8 +71,13 @@ public class PlatformerPlayerController : MonoBehaviour
         //Move the player using Rigidbody2D in FixedUpdate
         rb.velocity = new Vector2 (horizontalInput * movespeed, rb.velocity.y);
 
+        animator.SetFloat("xVelocityAbs", Mathf.Abs(rb.velocity.x));
+        animator.SetFloat("yVelocity", rb.velocity.y);
+
         //Check if the player is on the ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        animator.SetBool("onGround", isGrounded);
 
         //Ensure the player is facing the direction of movement 
         if (horizontalInput > 0 )

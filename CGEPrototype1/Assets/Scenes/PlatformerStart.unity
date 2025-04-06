@@ -34852,6 +34852,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1870011852
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870011844}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a7948c786d38248a7b30350e93ced463, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1913127172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8214414792633701070, guid: bcca7126e15fb4e7a9e7cb6ec52ad82b, type: 3}
@@ -35324,6 +35345,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1264665514377182497, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264665514377182497, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.485
+      objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -35369,12 +35398,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425111, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
+    - target: {fileID: 1264665514549425111, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425111, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_SortingLayerID
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7229128
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.78877854
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.018096447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1371696
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425114, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: coinSound
