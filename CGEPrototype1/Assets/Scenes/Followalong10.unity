@@ -27590,127 +27590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679ebce6c80d749dab8bee7834643cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1158793127
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1158793129}
-  - component: {fileID: 1158793128}
-  - component: {fileID: 1158793131}
-  - component: {fileID: 1158793130}
-  m_Layer: 0
-  m_Name: bullet
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!212 &1158793128
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158793127}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
-  m_Color: {r: 0.8941177, g: 0.78823537, b: 0.5921569, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1158793129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158793127}
-  m_LocalRotation: {x: -0.0033181568, y: -0.0015210436, z: -0.70414275, w: 0.7100491}
-  m_LocalPosition: {x: -5.627, y: -3.514, z: -1.814}
-  m_LocalScale: {x: 0.32561085, y: 0.320348, z: 1.1441}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: -0.393, y: 0.144, z: -89.522}
---- !u!70 &1158793130
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158793127}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00057983975, y: -0.000000010336937}
-  m_Size: {x: 0.9988398, y: 2.0000002}
-  m_Direction: 1
---- !u!50 &1158793131
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158793127}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
 --- !u!1 &1273692979
 GameObject:
   m_ObjectHideFlags: 0
@@ -34490,22 +34369,6 @@ CompositeCollider2D:
         Y: 3999900
       - X: 760000041
         Y: 3999900
-    - - X: 20000100
-        Y: -10000041
-      - X: 20000100
-        Y: 41
-      - X: 20000041
-        Y: 100
-      - X: -41
-        Y: 100
-      - X: -100
-        Y: 41
-      - X: -100
-        Y: -10000041
-      - X: -41
-        Y: -10000100
-      - X: 20000041
-        Y: -10000100
     - - X: 450000100
         Y: -10000041
       - X: 450000100
@@ -34562,6 +34425,22 @@ CompositeCollider2D:
         Y: -20000100
       - X: 640000041
         Y: -20000100
+    - - X: 20000100
+        Y: -10000041
+      - X: 20000100
+        Y: 41
+      - X: 20000041
+        Y: 100
+      - X: -41
+        Y: 100
+      - X: -100
+        Y: 41
+      - X: -100
+        Y: -10000041
+      - X: -41
+        Y: -10000100
+      - X: 20000041
+        Y: -10000100
     - - X: 338428676
         Y: -25428613
       - X: 338428676
@@ -35315,7 +35194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561163033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.04, y: -3.12, z: 0}
+  m_LocalPosition: {x: -3.083, y: -3.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1927972085}
@@ -35339,7 +35218,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 2.1333334}
+    oldSize: {x: 3, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -35780,8 +35659,8 @@ MonoBehaviour:
   knockbackforce: 5
   playerDeathEffect: {fileID: 6756808536313203812, guid: 8f0f9ccde53394605a1a187777684113, type: 3}
   hitRecoveryTime: 0.2
-  playerHitSound: {fileID: 8300000, guid: eeaaffe5b1e5347608614fc9477ac7ec, type: 3}
-  playerDeathSound: {fileID: 8300000, guid: 1dad6b65cada24aae9e78312e8c8a50d, type: 3}
+  playerHitSound: {fileID: 8300000, guid: 44f939f486d0c6d4b96c41d9cb532aa7, type: 3}
+  playerDeathSound: {fileID: 8300000, guid: 05c3adb988eea824e889240a1c2539a1, type: 3}
 --- !u!4 &1870011850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
@@ -35930,7 +35809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e5e5a8316c6425b8000e9259dbcd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundToPlay: {fileID: 8300000, guid: 1dad6b65cada24aae9e78312e8c8a50d, type: 3}
+  soundToPlay: {fileID: 8300000, guid: 05c3adb988eea824e889240a1c2539a1, type: 3}
   volume: 1
 --- !u!1 &1913127172 stripped
 GameObject:
