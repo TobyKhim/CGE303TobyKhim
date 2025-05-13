@@ -34369,6 +34369,38 @@ CompositeCollider2D:
         Y: 3999900
       - X: 760000041
         Y: 3999900
+    - - X: 20000100
+        Y: -10000041
+      - X: 20000100
+        Y: 41
+      - X: 20000041
+        Y: 100
+      - X: -41
+        Y: 100
+      - X: -100
+        Y: 41
+      - X: -100
+        Y: -10000041
+      - X: -41
+        Y: -10000100
+      - X: 20000041
+        Y: -10000100
+    - - X: 450000100
+        Y: -10000041
+      - X: 450000100
+        Y: 41
+      - X: 450000041
+        Y: 100
+      - X: 379999959
+        Y: 100
+      - X: 379999900
+        Y: 41
+      - X: 379999900
+        Y: -10000041
+      - X: 379999959
+        Y: -10000100
+      - X: 450000041
+        Y: -10000100
     - - X: 640000100
         Y: -20000041
       - X: 640000100
@@ -34409,38 +34441,6 @@ CompositeCollider2D:
         Y: -20000100
       - X: 640000041
         Y: -20000100
-    - - X: 20000100
-        Y: -10000041
-      - X: 20000100
-        Y: 41
-      - X: 20000041
-        Y: 100
-      - X: -41
-        Y: 100
-      - X: -100
-        Y: 41
-      - X: -100
-        Y: -10000041
-      - X: -41
-        Y: -10000100
-      - X: 20000041
-        Y: -10000100
-    - - X: 450000100
-        Y: -10000041
-      - X: 450000100
-        Y: 41
-      - X: 450000041
-        Y: 100
-      - X: 379999959
-        Y: 100
-      - X: 379999900
-        Y: 41
-      - X: 379999900
-        Y: -10000041
-      - X: 379999959
-        Y: -10000100
-      - X: 450000041
-        Y: -10000100
     - - X: 338428676
         Y: -25428613
       - X: 338428676
@@ -35194,7 +35194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561163033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.017, y: -3.215, z: 0}
+  m_LocalPosition: {x: -1.28, y: -3.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1927972085}
@@ -35660,7 +35660,6 @@ MonoBehaviour:
   playerDeathEffect: {fileID: 6756808536313203812, guid: 8f0f9ccde53394605a1a187777684113, type: 3}
   hitRecoveryTime: 0.2
   playerHitSound: {fileID: 8300000, guid: 44f939f486d0c6d4b96c41d9cb532aa7, type: 3}
-  playerDeathSound: {fileID: 8300000, guid: 05c3adb988eea824e889240a1c2539a1, type: 3}
 --- !u!4 &1870011850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
@@ -35797,20 +35796,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 8057341628020884013, guid: 552ddc3c6026e4f94aa94c6093903df8, type: 3}
   firePoint: {fileID: 176767808}
---- !u!114 &1870011855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870011844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85e5e5a8316c6425b8000e9259dbcd92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundToPlay: {fileID: 8300000, guid: 05c3adb988eea824e889240a1c2539a1, type: 3}
-  volume: 1
 --- !u!1 &1913127172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8214414792633701070, guid: bcca7126e15fb4e7a9e7cb6ec52ad82b, type: 3}

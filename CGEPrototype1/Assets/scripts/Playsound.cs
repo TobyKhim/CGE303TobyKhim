@@ -5,8 +5,7 @@ using UnityEngine;
 //require the audiosource to be attached
 //to the gameover this script is attached to
 [RequireComponent(typeof(AudioSource))]
-
-public class Playsound : MonoBehaviour
+public class PlaySound : MonoBehaviour
 {
     private AudioSource audioSource;
     public AudioClip soundToPlay;

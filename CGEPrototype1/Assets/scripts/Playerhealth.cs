@@ -32,7 +32,6 @@ public class Playerhealth : MonoBehaviour
     //references to play audio
     private AudioSource playerAudio;
     public AudioClip playerHitSound;
-    public AudioClip playerDeathSound;
 
     private Animator animator;
 
@@ -117,7 +116,7 @@ public class Playerhealth : MonoBehaviour
         //update the health bar
         healthBar.SetValue(health);
 
-        //to do: play sround effect when the player takes damage
+        //to do: play sound effect when the player takes damage
         //to do: play an animation when the player takes damage
 
         //if the health is less than or equal to 0
@@ -142,10 +141,6 @@ public class Playerhealth : MonoBehaviour
         //set gameover to true
         ScoreManager.gameOver = true;
         gameObject.SetActive(false);
-
-        //TO DO: play a sound effect when the player dies
-        //TO DO: add the player death effects when the player dies
-        playerAudio.PlayOneShot(playerDeathSound);
 
         //Instantiate the death effect at the player's position
         GameObject deathEffect = Instantiate(playerDeathEffect, transform.position, Quaternion.identity);
