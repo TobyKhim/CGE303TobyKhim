@@ -634,9 +634,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 732219c5dd09e445798116df326dc648, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f328192eb98db214e9240c53b23c0c0a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.735
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -34451,22 +34451,6 @@ CompositeCollider2D:
         Y: 3999900
       - X: 760000041
         Y: 3999900
-    - - X: 450000100
-        Y: -10000041
-      - X: 450000100
-        Y: 41
-      - X: 450000041
-        Y: 100
-      - X: 379999959
-        Y: 100
-      - X: 379999900
-        Y: 41
-      - X: 379999900
-        Y: -10000041
-      - X: 379999959
-        Y: -10000100
-      - X: 450000041
-        Y: -10000100
     - - X: 640000100
         Y: -20000041
       - X: 640000100
@@ -34522,6 +34506,22 @@ CompositeCollider2D:
       - X: -41
         Y: -10000100
       - X: 20000041
+        Y: -10000100
+    - - X: 450000100
+        Y: -10000041
+      - X: 450000100
+        Y: 41
+      - X: 450000041
+        Y: 100
+      - X: 379999959
+        Y: 100
+      - X: 379999900
+        Y: 41
+      - X: 379999900
+        Y: -10000041
+      - X: 379999959
+        Y: -10000100
+      - X: 450000041
         Y: -10000100
     - - X: 338428676
         Y: -25428613
@@ -34953,6 +34953,11 @@ CompositeCollider2D:
       - {x: -7.0000257, y: 3.00001}
       - {x: -16.00001, y: 2.9999747}
       - {x: -15.999974, y: -10.00001}
+    - - {x: 83.99998, y: 1.39999}
+      - {x: 83.99998, y: 2.00001}
+      - {x: 82.999985, y: 1.9999748}
+      - {x: 83.000015, y: 1.414271}
+      - {x: 83.04286, y: 1.39999}
     - - {x: 13.999974, y: -1.00001}
       - {x: 13.999974, y: 2.00001}
       - {x: 10.99999, y: 1.9999748}
@@ -34961,11 +34966,6 @@ CompositeCollider2D:
       - {x: 32.999973, y: 2.00001}
       - {x: 27.99999, y: 1.9999748}
       - {x: 28.000027, y: 0.99999}
-    - - {x: 83.99998, y: 1.39999}
-      - {x: 83.99998, y: 2.00001}
-      - {x: 82.999985, y: 1.9999748}
-      - {x: 83.000015, y: 1.414271}
-      - {x: 83.04286, y: 1.39999}
     - - {x: 75.99998, y: 0.39999}
       - {x: 75.99998, y: 1.00001}
       - {x: 74.999985, y: 0.9999748}
@@ -35007,10 +35007,6 @@ CompositeCollider2D:
       - {x: 89.999985, y: -2.0000253}
       - {x: 90.000015, y: -2.5857291}
       - {x: 90.04286, y: -2.60001}
-    - - {x: 20.999975, y: -10.00001}
-      - {x: 20.999975, y: -2.99999}
-      - {x: 19.99999, y: -3.0000253}
-      - {x: 20.000027, y: -10.00001}
     - - {x: 56.957134, y: -8.00001}
       - {x: 57.000015, y: -7.9571347}
       - {x: 57, y: -7.0428433}
@@ -35035,20 +35031,24 @@ CompositeCollider2D:
       - {x: 55.99999, y: -7.0428658}
       - {x: 56, y: -7.9571567}
       - {x: 56.04287, y: -8.00001}
-    - - {x: 36.999973, y: -5.00001}
-      - {x: 36.999973, y: -3.99999}
-      - {x: 33.999992, y: -4.0000253}
-      - {x: 34.000027, y: -5.00001}
+    - - {x: 20.999975, y: -10.00001}
+      - {x: 20.999975, y: -2.99999}
+      - {x: 19.99999, y: -3.0000253}
+      - {x: 20.000027, y: -10.00001}
+    - - {x: 6.9999743, y: -10.00001}
+      - {x: 6.9999743, y: -3.99999}
+      - {x: 4.99999, y: -4.0000253}
+      - {x: 5.0000253, y: -10.00001}
     - - {x: 10.999974, y: -10.00001}
       - {x: 11.000039, y: -5.00001}
       - {x: 12.00001, y: -4.9999747}
       - {x: 11.999974, y: -3.99999}
       - {x: 8.99999, y: -4.0000253}
       - {x: 9.000026, y: -10.00001}
-    - - {x: 6.9999743, y: -10.00001}
-      - {x: 6.9999743, y: -3.99999}
-      - {x: 4.99999, y: -4.0000253}
-      - {x: 5.0000253, y: -10.00001}
+    - - {x: 36.999973, y: -5.00001}
+      - {x: 36.999973, y: -3.99999}
+      - {x: 33.999992, y: -4.0000253}
+      - {x: 34.000027, y: -5.00001}
     - - {x: 53.84283, y: -7.542867}
       - {x: 53.84286, y: -5.642847}
       - {x: 53.728565, y: -5.457133}
@@ -35936,7 +35936,7 @@ Animator:
   m_GameObject: {fileID: 1870011844}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a7948c786d38248a7b30350e93ced463, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5c29257934045544a883273bc7874b03, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -36663,11 +36663,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.349
+      value: -6.331
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.507
+      value: -3.522
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36731,7 +36731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_Size.y
-      value: 0.78877854
+      value: 0.7532551
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_Offset.x
@@ -36739,7 +36739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425113, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_Offset.y
-      value: -0.1371696
+      value: -0.12236798
       objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425114, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: coinSound
@@ -36748,7 +36748,7 @@ PrefabInstance:
     - target: {fileID: 1264665514549425114, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: jumpSound
       value: 
-      objectReference: {fileID: 8300000, guid: c3316419671ac4012a36b17d90addb6f, type: 3}
+      objectReference: {fileID: 8300000, guid: 28e152237045bad4db4a777430e64861, type: 3}
     - target: {fileID: 1264665514549425115, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_Name
       value: PlatformerPlayer
