@@ -173,6 +173,9 @@ MonoBehaviour:
     m_Bits: 64
   groundCheck: {fileID: 1264665514377182497}
   groundCheckRadius: 0.2
+  isGrounded: 0
+  jumpSound: {fileID: 0}
+  coinSound: {fileID: 0}
 --- !u!114 &1629059701339314057
 MonoBehaviour:
   m_ObjectHideFlags: 0

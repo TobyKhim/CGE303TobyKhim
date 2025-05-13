@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
+  - 
   - 
   - 
   - 
@@ -41,9 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Platform
-    uniqueID: 2227463407
-    locked: 0
-  - name: Decorations
-    uniqueID: 3987774583
+  - name: trigger
+    uniqueID: 1363008299
     locked: 0

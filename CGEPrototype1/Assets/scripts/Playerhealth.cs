@@ -34,10 +34,14 @@ public class Playerhealth : MonoBehaviour
     public AudioClip playerHitSound;
     public AudioClip playerDeathSound;
 
+    private Animator animator;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        //set the animator reference
+        animator = GetComponent<Animator>();
 
         //set the audiosource reference
         playerAudio = GetComponent<AudioSource>();
@@ -99,6 +103,9 @@ public class Playerhealth : MonoBehaviour
 
         //set hitRecovery to false
         hitRecently = false;
+
+        //set the hit animation to false
+        animator.SetBool("hit", false);
     }
 
     //a function to take damage
@@ -123,6 +130,9 @@ public class Playerhealth : MonoBehaviour
         {
             //play the playerhitsound
             playerAudio.PlayOneShot(playerHitSound);
+
+            //play the player hit animation
+            animator.SetBool("hit", true);
         }
     }
 
