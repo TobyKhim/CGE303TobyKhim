@@ -328,7 +328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 176767808}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35128,7 +35128,7 @@ GameObject:
   - component: {fileID: 1561163038}
   - component: {fileID: 1561163040}
   - component: {fileID: 1561163039}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crab enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35297,7 +35297,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!4 &1641877826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8214414792633701058, guid: bcca7126e15fb4e7a9e7cb6ec52ad82b, type: 3}
@@ -35909,7 +35909,7 @@ GameObject:
   - component: {fileID: 1927972088}
   - component: {fileID: 1927972087}
   - component: {fileID: 1927972086}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36478,6 +36478,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.485
       objectReference: {fileID: 0}
+    - target: {fileID: 1264665514377182498, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1264665514549425110, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -36574,6 +36578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformerPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 1264665514549425115, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 991ea49f9fcee4a0caaccd9433dc2cd7, type: 3}
 --- !u!1001 &3562650901569948627
@@ -36583,6 +36591,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1927972085}
     m_Modifications:
+    - target: {fileID: 3562650902136337619, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562650902217168645, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562650902781099976, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3562650902781099983, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -36594,6 +36614,10 @@ PrefabInstance:
     - target: {fileID: 3562650902904492300, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
       propertyPath: m_Name
       value: Healthbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562650902904492300, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3562650902904492339, guid: 17b6eaa1170564e4e922f203261cdf1f, type: 3}
       propertyPath: m_Pivot.x
