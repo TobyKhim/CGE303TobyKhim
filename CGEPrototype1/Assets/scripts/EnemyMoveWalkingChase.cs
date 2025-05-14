@@ -57,14 +57,11 @@ public class EnemyMoveWalkingChase : MonoBehaviour
             else
             {
                 StopMoving();
-                Debug.Log("No ground ahead");
-
             }
         }
         else
         {
             StopMoving();
-            Debug.Log("No ground ahead");
         }
     }
     bool IsGroundAhead()
